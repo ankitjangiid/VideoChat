@@ -7,7 +7,7 @@ const SocketContext = createContext();
 // link of our server
 // const socket = io("http://localhost:5000");
 
-const socket = io("https://videocall-reactapp.herokuapp.com/");
+const socket = io("ENTER_THE_ADDRESS_WHERE_SERVER_FILE_IS_SAVED");
 
 const ContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);
